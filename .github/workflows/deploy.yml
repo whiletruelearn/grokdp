@@ -4,7 +4,7 @@ on:
   # Trigger the workflow on push to main branch
   push:
     branches:
-      - main
+      - master
 
 env:
   BASE_URL: /${{ github.event.repository.name }}
@@ -44,7 +44,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: "_build/html"
+          path: "grokdp/_build/html"
 
       # Deploy the book's HTML to GitHub Pages
       - name: Deploy to GitHub Pages
