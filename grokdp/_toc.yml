@@ -1,9 +1,18 @@
-# Table of contents
-# Learn more at https://jupyterbook.org/customize/toc.html
-
-format: jb-book
-root: intro
-chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+format: jb-article
+root: index
+sections:
+- file: cover
+- file: chapter_1
+- file: chapter_2
+- file: chapter_3
+- file: chapter_4
+- file: chapter_5
+- file: chapter_6
+- file: chapter_7
+- file: chapter_8
+- file: chapter_9
+- file: chapter_10
+- file: chapter_11
+- file: chapter_12
+- file: chapter_13
+- file: appendix
