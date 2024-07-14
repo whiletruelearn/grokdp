@@ -11,7 +11,7 @@ kernelspec:
 
 (chapter_13)=
 
-# Chapter 13: Practice Problems and Solutions
+# Practice Problems and Solutions
 
 In this chapter, we'll work through a collection of Dynamic Programming problems that have been asked in actual coding interviews. For each problem, we'll provide a problem statement, an approach, a Python implementation, and a detailed explanation.
 

@@ -11,7 +11,7 @@ kernelspec:
 
 (chapter_11)=
 
-# Chapter 11: Real-world Applications of Dynamic Programming
+# Real-world Applications of Dynamic Programming
 
 Dynamic Programming (DP) is not just a theoretical concept—it has numerous practical applications across various industries. In this chapter, we'll explore how DP is used to solve real-world problems in different domains.
 

@@ -11,7 +11,7 @@ kernelspec:
 
 (chapter_12)=
 
-# Chapter 12: Common Patterns and Problem-Solving Strategies
+# Common Patterns and Problem-Solving Strategies
 
 Dynamic Programming (DP) problems often share common patterns and can be approached with similar strategies. In this chapter, we'll explore how to identify DP problems, common patterns in DP, and a step-by-step approach to solving them.
 
@@ -47,7 +47,7 @@ dp[i] = some_function(dp[i-1], dp[i-2], ...)
 Example problems: Longest Common Subsequence, Edit Distance
 
 Pattern:
-```{code-cell} python3
+```python3
 dp[i][j] = some_function(dp[i-1][j], dp[i][j-1], dp[i-1][j-1], ...)
 ```
 
@@ -56,7 +56,7 @@ dp[i][j] = some_function(dp[i-1][j], dp[i][j-1], dp[i-1][j-1], ...)
 Example problems: Matrix Chain Multiplication, Optimal Binary Search Tree
 
 Pattern:
-```{code-cell} python3
+```python3
 for length in range(2, n+1):
     for i in range(n-length+1):
         j = i + length - 1
@@ -68,7 +68,7 @@ for length in range(2, n+1):
 Example problems: Subset Sum, Partition Equal Subset Sum
 
 Pattern:
-```{code-cell} python3
+```python3
 dp[i][s] = dp[i-1][s] or dp[i-1][s-nums[i]]
 ```
 
@@ -77,7 +77,7 @@ dp[i][s] = dp[i-1][s] or dp[i-1][s-nums[i]]
 Example problems: Longest Palindromic Subsequence, Regular Expression Matching
 
 Pattern:
-```{code-cell} python3
+```python3
 dp[i][j] = some_function(dp[i+1][j-1], s[i], s[j], ...)
 ```
 

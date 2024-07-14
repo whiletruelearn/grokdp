@@ -11,7 +11,7 @@ kernelspec:
 
 (chapter_10)=
 
-# Chapter 10: Optimization Techniques in Dynamic Programming
+# Optimization Techniques in Dynamic Programming
 
 While Dynamic Programming (DP) is a powerful technique for solving complex problems, it can sometimes lead to solutions that are inefficient in terms of time or space complexity. In this chapter, we'll explore several optimization techniques that can make our DP solutions more efficient.
 

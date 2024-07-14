@@ -11,7 +11,7 @@ kernelspec:
 
 (chapter_9)=
 
-# Chapter 9: Dynamic Programming with Graphs
+# Dynamic Programming with Graphs
 
 Dynamic Programming (DP) can be effectively applied to various graph problems. In this chapter, we'll explore two classic problems: the All-Pairs Shortest Path problem using the Floyd-Warshall algorithm and the Traveling Salesman Problem.
 

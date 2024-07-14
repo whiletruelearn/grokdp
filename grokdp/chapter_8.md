@@ -11,7 +11,7 @@ kernelspec:
 
 (chapter_8)=
 
-# Chapter 8: Dynamic Programming in Arrays and Matrices
+# Dynamic Programming in Arrays and Matrices
 
 Dynamic Programming (DP) is particularly useful for solving problems involving arrays and matrices. In this chapter, we'll explore two classic problems: Matrix Chain Multiplication and Maximal Square.
 
